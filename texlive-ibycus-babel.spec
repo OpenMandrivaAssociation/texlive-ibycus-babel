@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /language/greek/ibycus-babel
+# catalog-date 2009-05-06 13:52:38 +0200
+# catalog-license lppl
+# catalog-version 3.0
 Name:		texlive-ibycus-babel
 Version:	3.0
 Release:	1
@@ -52,6 +58,7 @@ See the README for details.
 #- source
 %doc %{_texmfdistdir}/source/latex/ibycus-babel/ibycus-babel.dtx
 %doc %{_texmfdistdir}/source/latex/ibycus-babel/ibycus-babel.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -62,3 +69,5 @@ See the README for details.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
