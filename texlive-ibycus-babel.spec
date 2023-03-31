@@ -1,6 +1,6 @@
 Name:		texlive-ibycus-babel
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Use the Ibycus 4 Greek font with Babel
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/greek/ibycus-babel
