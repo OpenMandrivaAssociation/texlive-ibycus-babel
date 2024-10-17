@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Use the Ibycus 4 Greek font with Babel
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/greek/ibycus-babel
+URL:		https://www.ctan.org/tex-archive/language/greek/ibycus-babel
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ibycus-babel.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ibycus-babel.doc.r%{version}.tar.xz
